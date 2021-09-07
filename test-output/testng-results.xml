@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24762" started-at="2021-09-07T19:42:07 IST" finished-at="2021-09-07T19:42:32 IST">
+    <groups>
+    </groups>
+    <test name="EdgeTest" duration-ms="6879" started-at="2021-09-07T19:42:07 IST" finished-at="2021-09-07T19:42:14 IST">
+      <class name="TestNG_Practice.GetTitleDemo">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:TestNG_Practice.GetTitleDemo@610694f1]" name="setup" is-config="true" duration-ms="6718" started-at="2021-09-07T19:42:08 IST" finished-at="2021-09-07T19:42:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to parse remote response: Unknown error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at TestNG_Practice.GetTitleDemo.setup(GetTitleDemo.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LIN22002757', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="applyFilters()[pri:0, instance:TestNG_Practice.GetTitleDemo@610694f1]" name="applyFilters" duration-ms="0" started-at="2021-09-07T19:42:14 IST" finished-at="2021-09-07T19:42:14 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to parse remote response: Unknown error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at TestNG_Practice.GetTitleDemo.setup(GetTitleDemo.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LIN22002757', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:TestNG_Practice.GetTitleDemo@610694f1]" name="teardown" is-config="true" duration-ms="-1631023934855" started-at="2021-09-07T19:42:14 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG_Practice.GetTitleDemo -->
+    </test> <!-- EdgeTest -->
+    <test name=" ChromeTest" duration-ms="24762" started-at="2021-09-07T19:42:07 IST" finished-at="2021-09-07T19:42:32 IST">
+      <class name="TestNG_Practice.GetTitleDemo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestNG_Practice.GetTitleDemo@63753b6d]" name="setup" is-config="true" duration-ms="13315" started-at="2021-09-07T19:42:08 IST" finished-at="2021-09-07T19:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="applyFilters()[pri:0, instance:TestNG_Practice.GetTitleDemo@63753b6d]" name="applyFilters" duration-ms="6590" started-at="2021-09-07T19:42:21 IST" finished-at="2021-09-07T19:42:27 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LIN22002757', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sipancha\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2795ff1fd5b272824a36869a45b0637]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LIN22002757', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sipancha\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2795ff1fd5b272824a36869a45b0637
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at TestNG_Practice.GetTitleDemo.applyFilters(GetTitleDemo.java:127)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNG_Practice.GetTitleDemo@63753b6d]" name="teardown" is-config="true" duration-ms="4797" started-at="2021-09-07T19:42:27 IST" finished-at="2021-09-07T19:42:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG_Practice.GetTitleDemo -->
+    </test> <!--  ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
